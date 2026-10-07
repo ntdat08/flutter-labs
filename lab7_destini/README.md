@@ -1,17 +1,13 @@
-# lab7_destini
+# Destini 
 
-A new Flutter project.
+A choose-your-own-adventure interactive storytelling application.
 
-## Getting Started
+## Features
+- Branching narrative with decision trees leading to multiple endings
+- Dynamic button text adapting to each story chapter
+- Automatic restart option upon reaching story completion
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Story tree state management handled inside `StoryBrain`
+- Dynamic button visibility control using the `Visibility` widget
+- Background image styling using `BoxDecoration` and `AssetImage`
