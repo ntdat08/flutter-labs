@@ -1,17 +1,15 @@
-# lab9_clima
+# Clima 
 
-A new Flutter project.
+A weather forecast application providing real-time conditions using the OpenWeatherMap API.
 
-## Getting Started
+## Features
+- City-based weather search and automatic display updates
+- Metric measurements: temperature, feels-like, humidity, wind speed, and daily bounds
+- Dynamic condition icons and contextual advice based on current weather
+- Graceful offline and error fallbacks
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Asynchronous programming with Dart `async`/`await`
+- RESTful API consumption using the `http` package
+- JSON serialization via `WeatherData.fromJson` model factory
+- Form input management using `TextEditingController`
