@@ -1,17 +1,13 @@
-# i_am_rich
+# I Am Rich 
 
-A new Flutter project.
+A simple Flutter application displaying a diamond image to introduce core UI concepts.
 
-## Getting Started
+## Features
+- Minimalist static interface displaying an image centered on screen
+- Custom app bar with Material styling
+- Local asset image rendering
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Uses `StatelessWidget`
+- Asset bundle declaration in `pubspec.yaml`
+- Core layout widgets: `Scaffold`, `AppBar`, `Center`, and `Image.asset`
