@@ -1,17 +1,13 @@
-# lab5_xylophone
+# Xylophone 
 
-A new Flutter project.
+A playable 7-tone musical xylophone application producing sound upon key taps.
 
-## Getting Started
+## Features
+- Seven color-coded musical bars representing notes C through B
+- Audio playback triggered on key press
+- Full-screen responsive key layout
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Third-party package integration (`audioplayers`)
+- DRY architecture using a reusable builder method (`buildKey`)
+- Vertical key distribution using `Column` and `Expanded`
