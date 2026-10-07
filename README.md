@@ -1,12 +1,12 @@
 # Flutter Mobile Development Labs
 
-Repository tổng hợp 9 bài thực hành phát triển ứng dụng di động đa nền tảng bằng **Flutter & Dart**, đi từ các thành phần UI cơ bản, quản lý trạng thái (State Management) đến xử lý lập trình bất đồng bộ và tích hợp RESTful API.
+Repository tổng hợp 9 bài thực hành phát triển ứng dụng di động đa nền tảng bằng Flutter & Dart, đi từ các thành phần UI cơ bản, quản lý trạng thái (State Management) đến xử lý lập trình bất đồng bộ và tích hợp RESTful API.
 
 ---
 
-## Danh sách các bài Lab (Projects Overview)
+## Danh sách các bài Lab (Projects overview)
 
-| Lab # | Tên dự án | Khái niệm & Công nghệ trọng tâm | Mô tả | Tài liệu |
+| Lab # | Tên dự án | Khái niệm & công nghệ trọng tâm | Mô tả | Tài liệu |
 | :---: | :--- | :--- | :--- | :---: |
 | **Lab 1** | **I Am Rich** | Khởi tạo dự án, Material Design căn bản, Scaffold, AppBar, quản lý ảnh Asset | Hiển thị tiêu đề "I Am Rich" cùng hình ảnh viên kim cương ở chính giữa màn hình | [README](./lab1_i_am_rich/README.md) |
 | **Lab 2** | **MiCard** | Bố cục Column, SafeArea, CircleAvatar, Card, ListTile | Profile cá nhân dạng danh thiếp kỹ thuật số cùng avatar và các thông tin liên lạc cơ bản | [README](./lab2_mi_card/README.md) |
@@ -20,7 +20,7 @@ Repository tổng hợp 9 bài thực hành phát triển ứng dụng di độn
 
 ---
 
-## 🛠️ Công nghệ & Môi trường phát triển
+## Công nghệ & Môi trường phát triển
 
 - **Framework**: Flutter (Dart SDK)
 - **IDE**: Visual Studio Code / Android Studio
@@ -32,7 +32,7 @@ Repository tổng hợp 9 bài thực hành phát triển ứng dụng di độn
 
 ---
 
-## 🚀 Hướng dẫn cài đặt & Khởi chạy
+## Hướng dẫn cài đặt & chạy các bài lab
 
 ### 1. Clone repository về máy
 ```bash
