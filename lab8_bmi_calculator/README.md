@@ -1,17 +1,14 @@
-# lab8_bmi_calculator
+# BMI Calculator 
 
-A new Flutter project.
+A Body Mass Index calculator with customized Material Design and multi-screen navigation.
 
-## Getting Started
+## Features
+- Gender selection with active and inactive card states
+- Height configuration via custom slider
+- Incremental adjustments for weight and age
+- Calculation result screen with categories and tailored health advice
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Modular project structure: `components`, `screens`, `constants`, and `calculator_brain`
+- Screen navigation using `Navigator.push` and `Navigator.pop`
+- Advanced UI theming with `SliderTheme` and custom rounded icon buttons
