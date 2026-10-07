@@ -1,17 +1,13 @@
-# lab2_mi_card
+# MiCard 
 
-A new Flutter project.
+A digital business card application showcasing personal profile and contact details.
 
-## Getting Started
+## Features
+- Circular avatar profile display
+- Clear contact cards for phone number and email
+- Polished typography with custom font styling
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Uses `StatelessWidget`
+- Layout management using `SafeArea`, `Column`, and `Divider`
+- Material UI components: `CircleAvatar`, `Card`, and `ListTile`
