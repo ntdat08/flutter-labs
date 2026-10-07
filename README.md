@@ -20,7 +20,7 @@ Repository tổng hợp 9 bài thực hành phát triển ứng dụng di độn
 
 ---
 
-## Công nghệ & Môi trường phát triển
+## Công nghệ & môi trường phát triển
 
 - **Framework**: Flutter (Dart SDK)
 - **IDE**: Visual Studio Code / Android Studio
