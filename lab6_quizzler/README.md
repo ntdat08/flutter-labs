@@ -1,17 +1,13 @@
-# lab6_quizzler
+# Quizzler 
 
-A new Flutter project.
+A true/false trivia quiz game with answer validation and progress tracking.
 
-## Getting Started
+## Features
+- Sequential question display with True/False input buttons
+- Real-time score tracker with check and cross icons
+- Completion alert dialog displaying final results with reset option
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Object-Oriented Programming (OOP) in Dart: `Question` model and `QuizBrain` controller
+- Data encapsulation restricting direct access to the question bank
+- Dynamic list rendering for `scoreKeeper`
