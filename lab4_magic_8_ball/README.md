@@ -1,17 +1,13 @@
-# lab4_magic_8_ball
+# Magic 8 Ball 
 
-A new Flutter project.
+An interactive decision-making tool inspired by the classic Magic 8 Ball toy.
 
-## Getting Started
+## Features
+- Random answers generated upon user interaction
+- Visual ball face changes corresponding to predictions
+- Accompanying textual predictions for clarity
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+- Uses `StatefulWidget` for tracking prediction state
+- Dynamic asset path resolution (`ball$ballNumber.png`)
+- Event handling using `TextButton` and `ElevatedButton`
